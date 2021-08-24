@@ -11,6 +11,7 @@
         <module name="cloud-api-common" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-provider-payment8001" />
+        <module name="seata-order-service2001" />
         <module name="cloudalibaba-consumer-nacos-order84" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-config-center-3344" />
@@ -20,6 +21,8 @@
         <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloudalibaba-consumer-nacos-order83" />
+        <module name="seata-account-service2003" />
+        <module name="seata-storage-service2002" />
         <module name="cloud-provider-hygtrix-payment8001" />
         <module name="cloud-consumer-order80" />
         <module name="cloudalibaba-sentinel-service8401" />
@@ -46,6 +49,9 @@
       <module name="cloudalibaba-provider-payment9003" target="1.8" />
       <module name="cloudalibaba-provider-payment9004" target="1.8" />
       <module name="cloudalibaba-sentinel-service8401" target="1.8" />
+      <module name="seata-account-service2003" target="1.8" />
+      <module name="seata-order-service2001" target="1.8" />
+      <module name="seata-storage-service2002" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
